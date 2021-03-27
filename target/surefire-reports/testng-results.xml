@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="12550" started-at="2020-05-29T21:33:14Z" finished-at="2020-05-29T21:33:26Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="12550" started-at="2020-05-29T21:33:14Z" finished-at="2020-05-29T21:33:26Z">
+      <class name="org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest@4cf4d528]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="9" started-at="2020-05-29T23:33:14Z" finished-at="2020-05-29T23:33:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest@4cf4d528]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="12235" started-at="2020-05-29T23:33:14Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-05-29T23:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest@4cf4d528]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2020-05-29T23:33:26Z" finished-at="2020-05-29T23:33:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest.brotli_content_encoding_is_set() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest@4cf4d528]" name="setUp" is-config="true" duration-ms="11" started-at="2020-05-29T23:33:26Z" finished-at="2020-05-29T23:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="brotli_content_encoding_is_set()[pri:0, instance:org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest@4cf4d528]" name="brotli_content_encoding_is_set" duration-ms="224" started-at="2020-05-29T23:33:26Z" finished-at="2020-05-29T23:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brotli_content_encoding_is_set -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest@4cf4d528]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-05-29T23:33:26Z" finished-at="2020-05-29T23:33:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest.brotli_content_encoding_is_set() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest@4cf4d528]" name="setUp" is-config="true" duration-ms="5" started-at="2020-05-29T23:33:26Z" finished-at="2020-05-29T23:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest@4cf4d528]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-05-29T23:33:26Z" finished-at="2020-05-29T23:33:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest.content_length_is_NOT_set__OR_is_zero() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="content_length_is_NOT_set__OR_is_zero()[pri:0, instance:org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest@4cf4d528]" name="content_length_is_NOT_set__OR_is_zero" duration-ms="25" started-at="2020-05-29T23:33:26Z" finished-at="2020-05-29T23:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- content_length_is_NOT_set__OR_is_zero -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest@4cf4d528]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-05-29T23:33:26Z" finished-at="2020-05-29T23:33:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest.content_length_is_NOT_set__OR_is_zero() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest@4cf4d528]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2020-05-29T23:33:26Z" finished-at="2020-05-29T23:33:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest.hello_brotli_controller_response_OK() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest@4cf4d528]" name="setUp" is-config="true" duration-ms="3" started-at="2020-05-29T23:33:26Z" finished-at="2020-05-29T23:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="hello_brotli_controller_response_OK()[pri:0, instance:org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest@4cf4d528]" name="hello_brotli_controller_response_OK" duration-ms="24" started-at="2020-05-29T23:33:26Z" finished-at="2020-05-29T23:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello_brotli_controller_response_OK -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest@4cf4d528]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-05-29T23:33:26Z" finished-at="2020-05-29T23:33:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest.hello_brotli_controller_response_OK() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest@4cf4d528]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-05-29T23:33:26Z" finished-at="2020-05-29T23:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

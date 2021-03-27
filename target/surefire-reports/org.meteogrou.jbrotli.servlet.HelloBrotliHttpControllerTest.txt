@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.384 sec - in org.meteogrou.jbrotli.servlet.HelloBrotliHttpControllerTest
